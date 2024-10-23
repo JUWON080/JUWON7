@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
           <div className=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
           {/* {<img src="../public/images/hero-img.png" alt="HeroSectionImage" className='img-fluid'/>} */}
-          <img src={hero} alt="HeroImage" />
+          <img src={hero} alt="HeroImage" className='img-fluid' />
           </div>
       </div>
   </div>
