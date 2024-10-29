@@ -1,17 +1,18 @@
 import React from 'react'
-import AboutImages from '../public/images/about-img-1.jpg'
+import AboutImage from '../public/images/about-img-1.jpg'
 export default function About() {
   return (
     <div>
 <section className="py-3 py-md-5">
-  <div className="container">
+    <div className="container">
     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div className="col-12 col-lg-6 col-xl-5">
-        <img className="img-fluid rounded" loading="lazy" src={AboutImages} alt="About 1" />
+        {/* <img className="img-fluid rounded" loading="lazy" src="./public/images/about-img-1.jpg" alt="About 1"/> */}
+        <img src={AboutImage} className='img-fluid' alt="about us" />
       </div>
       <div className="col-12 col-lg-6 col-xl-7">
         <div className="row justify-content-xl-center">
-          <div className="col-12 col-xl-11">
+            <div className="col-12 col-xl-11">
             <h2 className="mb-3">Who Are We?</h2>
             <p className="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
             <p className="mb-5">We are a fast-growing company, but we have never lost sight of our core values. We believe in collaboration, innovation, and customer satisfaction. We are always looking for new ways to improve our products and services.</p>
